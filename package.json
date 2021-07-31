@@ -1,0 +1,14 @@
+{
+  "name": "same-values-multidimensional-object",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wesbragagt/same-values-multidimensional-object.git",
+  "author": "Weslley Braga <wesbragagt@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
