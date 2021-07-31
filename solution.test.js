@@ -31,4 +31,19 @@ describe('are all values in this object the same?', ()=>{
         }
         expect(areAllSameValues(input)).toBe(true)
     })
+    it('should take a multidimensional object with all values the same and output true even if values are nested in an array',()=>{
+        const input = {
+            a: 2,
+            b: 2,
+            c: {
+                a1: [2,2],
+                b1: 2,
+                c1: 2,
+                d1: {
+                    a2: 2
+                }
+            }
+        }
+        expect(areAllSameValues(input)).toBe(true)
+    })
 })
